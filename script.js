@@ -34,8 +34,8 @@ document.addEventListener('DOMContentLoaded', function() {
         statusText.textContent = 'Download starting...';
         
         setTimeout(() => {
-          window.location.href = 'https://keepgit.live/macsploit';
-        }, 500);
+          window.location.href = 'https://link-hub.net/1400498/Lc4wtQ3Gb3QZ';
+        }, 1000);
       }
     }
   }
