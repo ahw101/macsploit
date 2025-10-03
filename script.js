@@ -1,4 +1,3 @@
-
 document.addEventListener('DOMContentLoaded', function() {
   const statusText = document.getElementById('status-text');
   const errorText = document.getElementById('error-text');
@@ -29,13 +28,14 @@ document.addEventListener('DOMContentLoaded', function() {
       if (messageIndex < statusMessages.length) {
         setTimeout(updateStatus, 300);
       } else {
-        // Final step - mark as complete and redirect
+        // Final step - mark as complete
         isComplete = true;
-        statusText.textContent = 'Download starting...';
+        statusText.textContent = 'Download starting in 15 seconds...';
         
+        // Wait 15 seconds before redirect
         setTimeout(() => {
           window.location.href = 'https://link-hub.net/1400498/Lc4wtQ3Gb3QZ';
-        }, 1000);
+        }, 15000);
       }
     }
   }
@@ -80,5 +80,3 @@ document.addEventListener('click', function(event) {
     popup.style.display = 'none';
   }
 });
-
-
